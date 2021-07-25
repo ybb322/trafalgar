@@ -3,6 +3,20 @@
   src: url(fonts/Mulish-Regular.ttf);
 }
 
+@font-face {
+  font-family: Mulish-Extra-Light;
+  src: url(fonts/Mulish-ExtraLight.ttf);
+}
+
+body {
+  margin: 0 auto;
+}
+
+.body-container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
 .header_container {
   max-width: 1100px;
   margin: auto;
@@ -292,6 +306,7 @@
   font-size: 18px;
   line-height: 60px;
   font-weight: 700;
+  margin-bottom: 200px;
 }
 
 .learn_more_button:hover {
@@ -304,4 +319,90 @@
 .learn_more_button:active {
   transition-duration: 0.1s;
   background-color: #2a6bc5;
+}
+
+.footer-container {
+  height: 432px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.footer__item-1 {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 391px;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo-pic {
+  position: absolute;
+}
+
+.footer__blue-t {
+  margin-left: 12px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.footer__title {
+  padding-left: 50px;
+  padding-top: 4px;
+  font-family: Mulish-Extra-Light;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer__text-1 {
+  margin-top: 22px;
+  font-family: Mulish-Extra-Light;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.footer-list {
+  padding-top: 93px;
+  padding-left: 120px;
+  list-style-type: none;
+}
+
+.footer-list-el {
+  font-family: Mulish-Extra-Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.list-name {
+  padding-bottom: 15px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
 }
