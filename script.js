@@ -6,6 +6,12 @@ let offset = 0;
 
 activeToggle.addEventListener ('click', function (){
     this.classList.toggle ('active');
+    if (navMobile.style.left = 400) {
+        navMobileList.classList.add ('hidden');
+        }
+    else {
+        navMobile.classList.classList.remove ('hidden');
+    }
     if (this.classList.contains ('active')) {
         navMobileList.classList.remove ('hidden');
         menu.style.left = offset + 250 + 'px';
@@ -13,7 +19,6 @@ activeToggle.addEventListener ('click', function (){
 
     }
     else {
-        navMobileList.classList.add ('hidden');
         menu.style.left = offset + 400 + 'px';
         navMobile.style.left = + 400 + 'px';
     }
