@@ -49,6 +49,14 @@ body {
   font-size: 14px;
 }
 
+.menu {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+}
+
 .header_list {
   width: 600px;
   display: flex;
