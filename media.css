@@ -640,7 +640,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    width: 360px;
+    width: 380px;
     background: linear-gradient(
       to bottom,
       #98dbff -5.57%,
@@ -649,10 +649,6 @@
       #ffc1e3 100%
     );
     margin: 0 auto;
-  }
-
-  .body-container {
-    width: 360px;
   }
 
   .header_container {
